@@ -20,13 +20,11 @@
   text-decoration: none;
 }
 .site-title {
-  font-size: 26px;
-  font-weight: 400;
-  line-height: 56px;
-  margin-bottom: 0;
-  margin-top: 0;
-  padding-left: 10px;
-  float: left;
+  font-size: 18px;       /* smaller font */
+  line-height: 1.2;      /* tighter vertical spacing */
+  margin: 0;             /* no extra gap above/below */
+  padding: 5px 10px;     /* space inside so it’s not glued to the edge */
+  float: left;           /* keep it on the left side */
 }
 .menu-list {
   line-height: $header-thickness;

@@ -2,6 +2,7 @@
 layout: default
 title: Home
 ---
+{% include hero.html %}   <!-- 👈 this is the new hero section -->
 
 {% for post in paginator.posts %}
   {% include featured-post.html %}

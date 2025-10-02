@@ -54,3 +54,61 @@
 .pagination-active:hover {
   background-color: #e0e0e0;
 }
+.hero {
+  position: relative;
+  width: 100%;
+  min-height: 80vh;                           /* makes hero tall */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0px 0px;
+  margin: 0 auto 40px;                        /* remove max-width */
+  
+  /* Background (use a solid color or image) */
+  background: url('/assets/img/Hero Background/Rio Sterling (2).png') no-repeat center center;
+  background-size: cover;
+  color: white;
+  border-radius: 0;                           /* no rounded corners */
+  overflow: hidden;
+}
+
+
+.hero > * {
+  position: relative;
+  z-index: 1;                                 /* keep text above overlay */
+}
+
+/* Headings and text */
+.hero h1 {
+  margin-bottom: 3px;
+  font-size: 10rem;    
+  color: #000000;                      /* slightly bigger */
+  font-weight: bold;
+  text-align: left;
+}
+
+.hero p {
+  font-size: 2rem;
+  color: #686868;                             /* lighter for dark bg */
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Button */
+.hero .btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: black;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.hero .btn:hover {
+  background: #333;
+}
+

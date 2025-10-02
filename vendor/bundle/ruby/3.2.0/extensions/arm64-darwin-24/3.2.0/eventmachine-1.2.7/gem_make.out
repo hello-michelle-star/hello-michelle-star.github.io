@@ -1,0 +1,20 @@
+current directory: /Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/Users/michellestar/.rbenv/versions/3.2.9/bin/ruby extconf.rb --with-ssl-dir\=/opt/homebrew/opt/openssl@3
+creating Makefile
+
+current directory: /Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20251001-9501-1eoxqy sitelibdir\=./.gem.20251001-9501-1eoxqy clean
+
+current directory: /Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20251001-9501-1eoxqy sitelibdir\=./.gem.20251001-9501-1eoxqy
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.2'
+
+current directory: /Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20251001-9501-1eoxqy sitelibdir\=./.gem.20251001-9501-1eoxqy install
+/usr/bin/install -c -m 0755 fastfilereaderext.bundle ./.gem.20251001-9501-1eoxqy
+
+current directory: /Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20251001-9501-1eoxqy sitelibdir\=./.gem.20251001-9501-1eoxqy clean
