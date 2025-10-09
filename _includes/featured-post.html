@@ -1,7 +1,29 @@
-<article>
+<article class="case-study-card">
   <a href="{{ site.github.url }}{{ post.url }}">
-    <div class="featured-post" {% if post.image %}style="background-image:url({{ site.github.url }}/assets/img/{{ post.image }})"{% endif %}>
-      <h2><span>{{ post.title }}</span></h2>
+    <div class="case-study-content">
+      
+      <div class="text">
+        <!-- 🧠 Title -->
+        <h3 class="case-title">{{ post.title }}</h3>
+
+        <!-- 💬 Quick Summary -->
+        {% if post.description %}
+          <p class="case-summary">{{ post.description }}</p>
+        {% endif %}
+
+    
+
+        <!-- 🔗 Call-to-Action -->
+        <a class="btn" href="{{ site.github.url }}{{ post.url }}">Check it out →</a>
+      </div>
+
+      <!-- 🖼️ Image -->
+      {% if post.image %}
+        <div class="image">
+          <img src="{{ site.github.url }}/assets/img/{{ post.image }}" alt="{{ post.title }}">
+        </div>
+      {% endif %}
+      
     </div>
   </a>
 </article>
