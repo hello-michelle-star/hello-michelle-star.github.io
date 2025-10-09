@@ -4,9 +4,11 @@ title: Home
 ---
 {% include hero.html %}   <!-- 👈 this is the new hero section -->
 
-{% for post in paginator.posts %}
-  {% include featured-post.html %}
-{% endfor %}
+<div id="projects" style="padding-top: 60px; margin-top: -60px;">
+  {% for post in paginator.posts %}
+    {% include featured-post.html %}
+  {% endfor %}
+</div>
 
 <!-- Pagination links -->
 <div class="pagination">

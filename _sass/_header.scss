@@ -11,6 +11,8 @@
   background-color: white;
   box-shadow: 0 5px 6px -6px #bbb;
   z-index: 100;
+  flex-wrap: wrap;
+  overflow-x: hidden; /* 👈 Add this */
 }
 
 @media (max-width: $container-width) {
@@ -33,14 +35,22 @@
   font-weight: 500;
   margin: 0;
   padding: 12px 20px;
-  float: left;
 }
 .menu-list {
-  line-height: $header-thickness;
-  float: right;
+  display: flex;
+  gap: 20px;               /* spacing between items */
+  align-items: center;
+  flex-wrap: wrap;
 }
 .menu-link {
-  padding: 5px 10px;
+  padding: 10px 12px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #333;
+  text-decoration: none;
+}
+.menu-link:hover {
+  color: #000;
 }
 
 /*
@@ -98,4 +108,36 @@
   .dropdown:hover .dropbtn {
     background-color: #f1f1f1;
   }
+}
+.cv-button {
+  margin-left: 0px;
+  padding: 8px 16px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: 'Source Code Pro', monospace;  /* 👈 match font */
+  font-size: 0.9rem;  /* Adjust if needed */
+  letter-spacing: 0.15em;  /* Optional: match style */
+  text-transform: uppercase;  /* Optional: match style */
+  transition: background-color 0.3s, color 0.3s;
+  white-space: nowrap;
+}
+
+
+.cv-button:hover {
+  background-color: white;
+  color: black;
+}
+
+.header-right {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+  max-width: 100%;
+  margin-left: 650px;
 }

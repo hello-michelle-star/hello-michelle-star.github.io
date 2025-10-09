@@ -7,12 +7,12 @@ disqus:
 google-ID: 'UA-112060364-2'
 
 menu:
-- {name: 'Interesting Facts',  url: 'facts'}
-- {name: 'Learning Resources', url: 'resources'}
-- {name: 'Sample Posts',       url: 'sample-posts'}
-- {name: 'Documentation',      url: 'documentation'}
-- {name: 'About',              url: 'about'}
-- {name: 'Contact',            url: 'contact'}
+- {name: 'Projects', url: '#projects'}
+- {name: 'Research', url: 'research'}
+- {name: 'Art',      url: 'art'}
+- {name: 'Reading',  url: 'reading'}
+- {name: 'About',    url: 'about'}
+- {name: 'CV',       url: 'assets/pdf/CV Michelle Star (1).pdf'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
