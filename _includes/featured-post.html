@@ -1,29 +1,19 @@
-<article class="case-study-card">
-  <a href="{{ site.github.url }}{{ post.url }}">
-    <div class="case-study-content">
-      
-      <div class="text">
-        <!-- 🧠 Title -->
-        <h3 class="case-title">{{ post.title }}</h3>
+<article class="case-study-card" onclick="location.href='{{ site.github.url }}{{ post.url }}'">
+  <div class="case-study-content">
+    <div class="text">
+      <h3 class="case-title">{{ post.title }}</h3>
 
-        <!-- 💬 Quick Summary -->
-        {% if post.description %}
-          <p class="case-summary">{{ post.description }}</p>
-        {% endif %}
-
-    
-
-        <!-- 🔗 Call-to-Action -->
-        <a class="btn" href="{{ site.github.url }}{{ post.url }}">Check it out →</a>
-      </div>
-
-      <!-- 🖼️ Image -->
-      {% if post.image %}
-        <div class="image">
-          <img src="{{ site.github.url }}/assets/img/{{ post.image }}" alt="{{ post.title }}">
-        </div>
+      {% if post.description %}
+        <p class="case-summary">{{ post.description }}</p>
       {% endif %}
-      
+
+      <a class="btn" href="{{ site.github.url }}{{ post.url }}">Check it out →</a>
     </div>
-  </a>
+
+    {% if post.image %}
+      <div class="image">
+        <img src="{{ site.github.url }}/assets/img/{{ post.image }}" alt="{{ post.title }}">
+      </div>
+    {% endif %}
+  </div>
 </article>

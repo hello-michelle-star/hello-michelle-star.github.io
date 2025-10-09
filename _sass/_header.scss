@@ -1,15 +1,21 @@
 .site-header {
-  min-height: 56px;
-  width: $container-width;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: $header-thickness;
+  padding: 0 40px;
+  width: 100vw;  // 👈 full width of the viewport
   position: fixed;
+  left: 0;
+  top: 0;
   background-color: white;
   box-shadow: 0 5px 6px -6px #bbb;
   z-index: 100;
 }
+
 @media (max-width: $container-width) {
   .site-header {
     min-height: 56px;
-    width: 95vw;
     position: fixed;
     background-color: white;
     box-shadow: 0 5px 6px -6px #bbb;
@@ -20,11 +26,14 @@
   text-decoration: none;
 }
 .site-title {
-  font-size: 18px;       /* smaller font */
-  line-height: 1.2;      /* tighter vertical spacing */
-  margin: 0;             /* no extra gap above/below */
-  padding: 5px 10px;     /* space inside so it’s not glued to the edge */
-  float: left;           /* keep it on the left side */
+  font-family: 'Source Code Pro', monospace;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-weight: 500;
+  margin: 0;
+  padding: 12px 20px;
+  float: left;
 }
 .menu-list {
   line-height: $header-thickness;

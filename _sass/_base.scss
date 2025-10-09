@@ -130,6 +130,16 @@ th, td {
   display: flex;
   text-decoration: none;
   color: inherit;
+  cursor: pointer;
+
+  // 👇 Add this transition + hover effect here
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+  }
+
 
   .case-study-content {
     display: flex;
@@ -158,25 +168,47 @@ th, td {
       line-height: 1.6;
     }
 
+.btn {
+  position: relative;
+  display: inline-block;
+  padding: 12px 24px;
+  background: #000;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  overflow: hidden;
+  z-index: 1;
+  align-self: flex-start;
+  border: 1px solid transparent;
 
-    .btn {
-      display: inline-block;
-      padding: 12px 24px;
-      background: #000;
-      color: #fff;
-      border-radius: 6px;
-      text-decoration: none;
-      font-size: 1rem;
-      font-weight: 500;
-      transition: background 0.3s;
-      align-self: flex-start;
-
-      &:hover {
-        background: #333;
-      }
-    }
+  &:hover {
+    background: #333;
   }
 
+  // 🔥 Glowing ring
+  &::before {
+    content: "";
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    right: -6px;
+    bottom: -6px;
+    border-radius: 10px;
+    background: conic-gradient(
+      from 0deg,
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0) 30%,
+      rgba(255, 255, 255, 0) 70%,
+      rgba(255, 255, 255, 0.9)
+    );
+    animation: spin-glow 12s linear infinite; /* slower spin */
+    z-index: -1;
+    filter: blur(6px);
+  }
+}
+  } 
   .image {
     flex: 1.5;
     display: flex;
@@ -209,5 +241,13 @@ th, td {
 
   .image img {
     max-height: 250px;
+  }
+}
+@keyframes spin-glow {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }
