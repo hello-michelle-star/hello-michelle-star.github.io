@@ -15,15 +15,6 @@
   overflow-x: hidden; /* 👈 Add this */
 }
 
-@media (max-width: $container-width) {
-  .site-header {
-    min-height: 56px;
-    position: fixed;
-    background-color: white;
-    box-shadow: 0 5px 6px -6px #bbb;
-    z-index: 100;
-  }
-}
 .site-header a {
   text-decoration: none;
 }
@@ -66,12 +57,30 @@
   }
 }
 @media (max-width: $container-width) {
+  .site-header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+  }
+
+  .dropdown {
+    align-self: flex-end;
+    margin-top: 8px;
+  }
+
+  .site-title {
+    font-size: 1rem;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+
+  .cv-button {
+    display: none; // Hide CV button in mobile if not needed
+  }
   .menu-list {
     display: none;
   }
-  .site-title {
-    padding-right: 0.25rem;
-  }
+
   .dropbtn {
     background-color: white;
     color: black;
@@ -110,7 +119,7 @@
   }
 }
 .cv-button {
-  margin-left: 0px;
+  margin-left: auto;
   padding: 8px 16px;
   background-color: black;
   color: #fdf6f6;
