@@ -73,14 +73,15 @@
   align-items: flex-start;
   text-align: left;
   color: #222;
-  background-color: #f0e5de; /* light background */
+  background-color: #fdf6f6; /* light background */
   box-sizing: border-box;
 }
 
 
 .hero h1 {
   font-size: 4rem;
-  font-weight: 600;
+  font-family: Georgia, serif;
+  font-weight: 400;
   margin-bottom: 20px;
   line-height: 1.2;
 }

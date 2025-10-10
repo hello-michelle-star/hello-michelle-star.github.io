@@ -1,0 +1,80 @@
+.about-section {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  padding: 60px 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.profile-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  .hover-photo {
+    position: relative;
+    width: 40%;
+    max-width: 500px;
+
+    img {
+      width: 100%;
+      transition: opacity 0.3s ease;
+      display: block;
+    }
+
+    .hover-img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+    }
+
+    &:hover .hover-img {
+      opacity: 1;
+    }
+
+    &:hover .default-img {
+      opacity: 0;
+    }
+  }
+
+  .bio {
+    width: 50%;
+    font-size: 1rem;
+    line-height: 1.6;
+    padding-left: 40px;
+
+    h4 {
+        font-family: 'Source Code Pro', monospace;
+        font-size: 1rem;
+        text-transform: uppercase;
+        letter-spacing: 0.15em;
+        font-weight: 500;
+      margin-bottom: 10px;
+
+    }
+  }
+}
+
+.profile-row.wide-photo {
+  .hover-photo {
+    width: 60%;
+    max-width: 700px;
+  }
+
+  .bio {
+    width: 35%;
+    padding-left: 30px;
+  }
+}
+
+.profile-row.reverse {
+  flex-direction: row-reverse;
+
+  .bio {
+    padding-left: 0;
+    padding-right: 40px; // mirror the usual padding
+  }
+}
