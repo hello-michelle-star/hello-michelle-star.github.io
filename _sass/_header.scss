@@ -1,23 +1,25 @@
+/* === DESKTOP === */
 .site-header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   min-height: $header-thickness;
   padding: 0 40px;
-  width: 100vw;  // 👈 full width of the viewport
+  width: 100%;              /* not 100vw */
+  box-sizing: border-box; 
   position: fixed;
   left: 0;
   top: 0;
   background-color: #fdf6f6;
   box-shadow: 0 5px 6px -6px #bbb;
   z-index: 100;
-  flex-wrap: wrap;
-  overflow-x: hidden; /* 👈 Add this */
+  flex-wrap: nowrap;        /* keep one line */
+  overflow: visible;
+  gap: 24px;
 }
 
-.site-header a {
-  text-decoration: none;
-}
+.site-header a { text-decoration: none; }
+
 .site-title {
   font-family: 'Source Code Pro', monospace;
   font-size: 1rem;
@@ -25,14 +27,27 @@
   letter-spacing: 0.15em;
   font-weight: 500;
   margin: 0;
-  padding: 12px 20px;
+  padding: 12px 0;
+  flex: 0 0 auto;
 }
+
+.header-right {
+  margin-left: auto;        /* push whole block to the right */
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: nowrap;
+  min-width: 0;
+}
+
 .menu-list {
   display: flex;
-  gap: 20px;               /* spacing between items */
   align-items: center;
-  flex-wrap: wrap;
+  gap: 20px;
+  flex-wrap: nowrap;
+  min-width: 0;
 }
+
 .menu-link {
   padding: 10px 12px;
   font-size: 0.9rem;
@@ -40,112 +55,65 @@
   color: #333;
   text-decoration: none;
 }
-.menu-link:hover {
-  color: #000;
+
+.menu-link:hover { color: #000; }
+
+.cv-button {
+  padding: 8px 16px;
+  background-color: black;
+  color: #fdf6f6;
+  border: 1px solid black;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 0.9rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  transition: background-color 0.3s, color 0.3s;
+  white-space: nowrap;
 }
 
-/*
-  Responsiveness with a dropdown menu
-*/
+.cv-button:hover { background-color: #fdf6f6; color: black; }
 
+/* Hamburger hidden on desktop */
 @media (min-width: $container-width) {
-  .dropbtn {
-    display: none;
-  }
-  .dropdown-content {
-    display: none;
-  }
+  .dropdown { display: none; }
 }
+
+/* === MOBILE === */
 @media (max-width: $container-width) {
-  .site-header {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 10px 20px;
-  }
-
-  .dropdown {
-    align-self: flex-end;
-    margin-top: 8px;
-  }
-
-  .site-title {
-    font-size: 1rem;
-    padding: 0;
-    margin-bottom: 10px;
-  }
-
-  .cv-button {
-    display: none; // Hide CV button in mobile if not needed
-  }
-  .menu-list {
-    display: none;
-  }
+  .menu-list, .cv-button { display: none; }     /* hide desktop nav */
+  .dropdown { display: inline-block; margin-left: auto; position: relative; }
 
   .dropbtn {
     background-color: white;
     color: black;
-    padding: 16px;
-    margin-top: 4px;
+    padding: 12px 14px;
     font-size: 16px;
     border: none;
     cursor: pointer;
   }
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
+
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    right: 0;
+    top: 100%;
+    min-width: 200px;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(0,0,0,.2);
     z-index: 1;
   }
+
   .dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
   }
-  .dropdown-content a:hover {
-    background-color: #f1f1f1
-  }
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  .dropdown:hover .dropbtn {
-    background-color: #f1f1f1;
-  }
-}
-.cv-button {
-  margin-left: auto;
-  padding: 8px 16px;
-  background-color: black;
-  color: #fdf6f6;
-  border: 1px solid black;
-  border-radius: 4px;
-  text-decoration: none;
-  font-weight: 500;
-  font-family: 'Source Code Pro', monospace;  /* 👈 match font */
-  font-size: 0.9rem;  /* Adjust if needed */
-  letter-spacing: 0.15em;  /* Optional: match style */
-  text-transform: uppercase;  /* Optional: match style */
-  transition: background-color 0.3s, color 0.3s;
-  white-space: nowrap;
-}
 
-
-.cv-button:hover {
-  background-color: white;
-  color: black;
-}
-
-.header-right {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 20px;
-  max-width: 100%;
+  .dropdown-content a:hover { background-color: #f1f1f1; }
+  .dropdown:focus-within .dropdown-content,
+  .dropdown:hover .dropdown-content { display: block; }
 }

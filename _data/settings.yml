@@ -8,6 +8,7 @@ google-ID: 'UA-112060364-2'
 
 menu:
 - {name: 'Projects', url: '#projects'}
+- {name: 'Research', url: 'research'}
 - {name: 'Art',      url: 'art'}
 - {name: 'Reading',  url: 'reading'}
 - {name: 'About',    url: 'about'}

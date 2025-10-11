@@ -78,3 +78,63 @@
     padding-right: 40px; // mirror the usual padding
   }
 }
+/* ====== Tablet ====== */
+@media (max-width: 900px) {
+  .about-section {
+    gap: 48px;
+    padding: 40px 24px;
+  }
+
+  .profile-row {
+    align-items: flex-start;
+    gap: 24px;
+
+    .hover-photo { width: 48%; max-width: 420px; }
+    .bio {
+      width: 48%;
+      padding-left: 20px;
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+  }
+
+  .profile-row.wide-photo {
+    .hover-photo { width: 56%; max-width: 560px; }
+    .bio { width: 40%; padding-left: 20px; }
+  }
+}
+
+/* ====== Phone ====== */
+@media (max-width: 600px) {
+  .about-section {
+    gap: 32px;
+    padding: 24px 16px;
+  }
+
+  .profile-row,
+  .profile-row.reverse,
+  .profile-row.wide-photo {
+    flex-direction: column;   /* stack */
+    align-items: center;
+    gap: 16px;
+
+    .hover-photo {
+      width: 100%;
+      max-width: none;
+      /* disable hover-only swap on touch */
+      .hover-img { display: none; }
+      .default-img { opacity: 1; }
+    }
+
+    .bio {
+      width: 100%;
+      padding-left: 0;
+      padding-right: 0;
+      margin-top: 8px;
+      font-size: 0.95rem;
+      line-height: 1.7;
+
+      h4 { font-size: 0.9rem; letter-spacing: 0.12em; }
+    }
+  }
+}
