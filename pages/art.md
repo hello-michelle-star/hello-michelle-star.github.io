@@ -36,7 +36,7 @@ permalink: /art/
 }
 .meta{padding:10px 12px; display:flex; gap:10px; align-items:center; justify-content:space-between}
 .title{font-family:'Source Code Pro', monospace; text-transform:uppercase; letter-spacing:.06em; font-size:.95rem}
-.tag{font-size:.8rem; border:1px solid var(--ink); padding:2px 8px; border-radius:999px}
+
 .details{padding:0 12px 12px; color:#333; font-size:.95rem}
 .actions{margin-top:auto; padding:12px; display:flex; gap:10px}
 .btn{
@@ -102,7 +102,7 @@ dialog::backdrop{background:rgba(0,0,0,.7)}
 <!-- Drawings -->
 <article class="card" data-cat="drawing">
   <img class="thumb" src="/assets/img/art/boy.jpg" alt="Pencil portrait of a boy" loading="lazy">
-  <div class="meta"><span class="title">Portrait — Boy</span><span class="tag">Pencil</span></div>
+  <div class="meta"><span class="title">Portrait — Boy</span></div>
   <p class="details">Graphite on paper. 2024.</p>
   <div class="actions">
     <button class="btn view-btn" data-full="/assets/img/art/boy.jpg" data-title="Portrait — Boy (Pencil)">View</button>
@@ -111,7 +111,7 @@ dialog::backdrop{background:rgba(0,0,0,.7)}
 
 <article class="card">
   <img class="thumb" src="/assets/img/art/pen.jpg" alt="Pen portrait" loading="lazy">
-  <div class="meta"><span class="title">Portrait — Scribble Art</span><span class="tag">Pen</span></div>
+  <div class="meta"><span class="title">Portrait — Scribble Art</span></div>
   <p class="details">Ink Pen Sketch. 2025.</p>
   <div class="actions">
     <button class="btn view-btn" data-full="/assets/img/art/pen.jpg" data-title="Portrait — Pen">View</button>
@@ -120,7 +120,7 @@ dialog::backdrop{background:rgba(0,0,0,.7)}
 
 <article class="card">
   <img class="thumb" src="/assets/img/art/mouth.jpg" alt="Pencil drawing of a mouth" loading="lazy">
-  <div class="meta"><span class="title">Study — Mouth</span><span class="tag">Pencil</span></div>
+  <div class="meta"><span class="title">Study — Mouth</span></div>
   <p class="details">Form and shading study. 2025.</p>
   <div class="actions">
     <button class="btn view-btn" data-full="/assets/img/art/mouth.jpg" data-title="Study — Mouth (Pencil)">View</button>
@@ -129,7 +129,7 @@ dialog::backdrop{background:rgba(0,0,0,.7)}
 
 <article class="card">
   <img class="thumb" src="/assets/img/art/body.jpg" alt="Pencil figure study" loading="lazy">
-  <div class="meta"><span class="title">Figure Study</span><span class="tag">Pencil</span></div>
+  <div class="meta"><span class="title">Figure Study</span></div>
   <p class="details">Gesture and anatomy. 2025.</p>
   <div class="actions">
     <button class="btn view-btn" data-full="/assets/img/art/body.jpg" data-title="Figure Study (Pencil)">View</button>

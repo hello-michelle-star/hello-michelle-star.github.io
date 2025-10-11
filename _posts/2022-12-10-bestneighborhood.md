@@ -2,7 +2,7 @@
 layout: post
 title: "Best Neighborhood"
 description: "Finding the best neighborhood for kids in Pittsburgh using Python data analysis"
-image: chartcute.png
+image: pittsburgh.png
 ---
 
 ## Project Brief
