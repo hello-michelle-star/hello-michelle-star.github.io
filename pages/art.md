@@ -79,42 +79,6 @@ dialog::backdrop{background:rgba(0,0,0,.7)}
 /* merch layout */
 /* horizontal merch cards */
 /* merch grid: two horizontal cards side-by-side */
-.merch-grid{
-  display:grid;
-  gap:16px;
-  grid-template-columns: repeat(2, minmax(0,1fr));
-}
-@media (max-width:700px){
-  .merch-grid{ grid-template-columns: 1fr; }
-}
-
-/* card layout inside each merch item */
-.merch-card{
-  display:grid;
-  grid-template-columns: 62% 38%;   /* image | text */
-  align-items:stretch;
-  overflow:hidden;                   /* clip image edges */
-  min-height: 260px;                 /* gives image height to fill */
-}
-
-.merch-card .thumb-wide{
-  width:100%;
-  height:100%;
-  object-fit:cover;                  /* fill, no white bars */
-  background:#fff;                   /* remove pink bands */
-  aspect-ratio:auto;                 /* let height drive size */
-}
-
-/* tighten text side */
-.merch-card .merch-body{padding:14px 14px 12px; gap:8px}
-.merch-card .meta{padding:0; margin-bottom:6px}
-.merch-card .details{padding:0; margin:0 0 8px; line-height:1.4}
-.merch-card .actions{padding:0; margin-top:auto}
-
-@media (max-width:700px){
-  .merch-card{grid-template-columns:1fr; min-height:unset}
-  .merch-card .thumb-wide{height:auto; object-fit:contain; aspect-ratio:16/9}
-}
 
 
 
@@ -123,13 +87,11 @@ dialog::backdrop{background:rgba(0,0,0,.7)}
 .actions{margin-top:auto;}
 
 /* lift on hover */
-.merch-card:hover{transform:translateY(-4px);box-shadow:0 10px 24px rgba(0,0,0,.14);border-color:#d9d9d9}
-
 </style>
 
 <header class="art-hero">
   <h1></h1>
-  <p>I'm a Self-Taught artist. Here are some of my portrait drawings, art studies, and merch I designed as Village Director.</p>
+  <p>I'm a Self-Taught artist. Here are some of my portrait drawings and art studies.</p>
 </header>
 
 
@@ -174,33 +136,6 @@ dialog::backdrop{background:rgba(0,0,0,.7)}
   </div>
 </article>
  </div>
-</section>
-<!-- Merch -->
-<section class="gallery">
-  <h2 class="section-title">Merch</h2>
-  <div class="merch-grid">
-    <article class="card merch-card">
-      <img class="thumb thumb-wide" src="/assets/img/art/merch1.png" alt="Village Director sweatshirt design, Summer 2024" loading="lazy">
-      <div class="merch-body">
-        <div class="meta"><span class="title">Sweatshirt — Summer ‘24</span><span class="tag">Merch</span></div>
-        <p class="details">Camp Kon-O-Kwee Spencer. Front graphic.</p>
-        <div class="actions">
-          <button class="btn view-btn" data-full="/assets/img/art/merch1.png" data-title="Sweatshirt — Summer ‘24">View</button>
-        </div>
-      </div>
-    </article>
-
-    <article class="card merch-card">
-      <img class="thumb thumb-wide" src="/assets/img/art/merch2.jpg" alt="Village Director sweatshirt design, Summer 2025" loading="lazy">
-      <div class="merch-body">
-        <div class="meta"><span class="title">Sweatshirt — Summer ‘25</span><span class="tag">Merch</span></div>
-        <p class="details">Back print, limited run.</p>
-        <div class="actions">
-          <button class="btn view-btn" data-full="/assets/img/art/merch2.jpg" data-title="Sweatshirt — Summer ‘25">View</button>
-        </div>
-      </div>
-    </article>
-  </div>
 </section>
 
 
