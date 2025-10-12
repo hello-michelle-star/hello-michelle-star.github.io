@@ -54,12 +54,20 @@ Monica, a woman with cerebral palsy, told us she spends hours researching and ca
 
 ## Demo Video
 
-<div style="position:relative;aspect-ratio:16/9;max-width:100%;">
-  <video controls preload="metadata" playsinline style="width:100%;height:100%;" poster="/assets/img/hackathon/Screenshot 2025-10-12 at 2.08.47 AM.png">
-    <source src="/assets/img/hackathon/AccessiRide Video.mp4" type="video/quicktime">
-    Sorry—your browser can’t play this MOV.
-  </video>
+<!-- Responsive YouTube embed -->
+<div style="position:relative;width:100%;max-width:900px;aspect-ratio:16/9;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/Ch7b2W26PNE"
+    title="AccessiRide demo"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+    style="position:absolute;inset:0;width:100%;height:100%;border:0;">
+  </iframe>
 </div>
+
+<!-- Optional: visible fallback link -->
+<p><a href="https://youtu.be/Ch7b2W26PNE" target="_blank" rel="noopener">Watch on YouTube ↗</a></p>
+
 
 
 
