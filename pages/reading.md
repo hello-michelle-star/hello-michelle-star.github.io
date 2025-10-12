@@ -100,41 +100,46 @@ permalink: /reading/
 <!-- READING LIST -->
 <div class="reading-list">
 
-  <div class="reading-item" data-tags="Equity Design HCI">
-    <p><strong>Title:</strong> <a href="https://mitpress.mit.edu/9780262043458/design-justice/" target="_blank">Design Justice</a></p>
-    <p><strong>Author(s):</strong> Sasha Costanza-Chock</p>
-    <p><strong>Year:</strong> 2020</p>
-    <p><strong>Link Source:</strong> MIT Press</p>
-    <p><strong>Tags:</strong> Equity, Design, HCI</p>
-    <p><strong>Reflection:</strong> Defines my core framework: center the voices most marginalized by systems.</p>
+  
+
+    <!-- NEW: arXiv selections -->
+  <div class="reading-item" data-tags="AI Equity HCI">
+    <p><strong>Title:</strong> <a href="https://arxiv.org/abs/2410.07991" target="_blank">Human and LLM Biases in Hate Speech Annotations: A Socio-Demographic Analysis of Annotators and Targets</a></p>
+    <p><strong>Author(s):</strong> Multiple</p>
+    <p><strong>Year:</strong> 2024</p>
+    <p><strong>Link Source:</strong> arXiv</p>
+    <p><strong>Tags:</strong> AI, Equity, HCI</p>
+    <p><strong>Reflection:</strong> Useful evidence that labeling isn’t neutral; annotator identity shifts ground truth.</p>
   </div>
 
-  <div class="reading-item" data-tags="AI Equity Personal">
-    <p><strong>Title:</strong> <a href="https://books.google.com/books/about/Weapons_of_Math_Destruction.html?id=CxD-DAAAQBAJ" target="_blank">Weapons of Math Destruction</a></p>
-    <p><strong>Author(s):</strong> Cathy O’Neil</p>
-    <p><strong>Year:</strong> 2016</p>
-    <p><strong>Link Source:</strong> Crown</p>
-    <p><strong>Tags:</strong> AI, Equity, Personal</p>
-    <p><strong>Reflection:</strong> “Toxic feedback loop” explains algorithmic harm with clarity and urgency.</p>
+  <div class="reading-item" data-tags="AI HCI Equity">
+    <p><strong>Title:</strong> <a href="https://arxiv.org/abs/2402.10453" target="_blank">Rigor Is Not Rigid: Provocations for Responsible AI Evaluation</a></p>
+    <p><strong>Author(s):</strong> Multiple</p>
+    <p><strong>Year:</strong> 2024</p>
+    <p><strong>Link Source:</strong> arXiv</p>
+    <p><strong>Tags:</strong> AI, HCI, Equity</p>
+    <p><strong>Reflection:</strong> Argues for plural, context-aware evaluation over single-score benchmarking.</p>
   </div>
 
-  <div class="reading-item" data-tags="Equity Personal">
-    <p><strong>Title:</strong> <a href="https://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf" target="_blank">The Moral Character of Cryptographic Work</a></p>
-    <p><strong>Author(s):</strong> Phil Zimmermann</p>
-    <p><strong>Year:</strong> 1991</p>
-    <p><strong>Link Source:</strong> Essay Collection</p>
-    <p><strong>Tags:</strong> Equity, Personal</p>
-    <p><strong>Reflection:</strong> Technology = political speech. Code always carries values.</p>
+  <div class="reading-item" data-tags="AI">
+    <p><strong>Title:</strong> <a href="https://arxiv.org/abs/2406.07882" target="_blank">Sycophancy to Bootstrapping: Investigating LLM Preference Biases</a></p>
+    <p><strong>Author(s):</strong> Multiple</p>
+    <p><strong>Year:</strong> 2024</p>
+    <p><strong>Link Source:</strong> arXiv</p>
+    <p><strong>Tags:</strong> AI</p>
+    <p><strong>Reflection:</strong> Documents identity- and preference-tracking behavior that can distort assistance quality.</p>
   </div>
 
-  <div class="reading-item" data-tags="Accessibility Design HCI">
-    <p><strong>Title:</strong> <a href="https://mitpress.mit.edu/9780262038881/mismatch/" target="_blank">Mismatch: How Inclusion Shapes Design</a></p>
-    <p><strong>Author(s):</strong> Kat Holmes</p>
-    <p><strong>Year:</strong> 2018</p>
-    <p><strong>Link Source:</strong> MIT Press</p>
-    <p><strong>Tags:</strong> Accessibility, Design, HCI</p>
-    <p><strong>Reflection:</strong> Reframes disability as a design limitation — inclusion drives innovation.</p>
+  <div class="reading-item" data-tags="AI Equity HCI">
+    <p><strong>Title:</strong> <a href="https://arxiv.org/html/2403.18148v1" target="_blank">ASEC: The Annotators' Social and Epistemic Characteristics Dataset</a></p>
+    <p><strong>Author(s):</strong> Multiple</p>
+    <p><strong>Year:</strong> 2024</p>
+    <p><strong>Link Source:</strong> arXiv</p>
+    <p><strong>Tags:</strong> AI, Equity, HCI</p>
+    <p><strong>Reflection:</strong> Infrastructure for studying who labels data and how identities shape annotation.</p>
   </div>
+
+  
 
   <div class="reading-item" data-tags="HCI Accessibility Design">
   <p><strong>Title:</strong> 
@@ -151,14 +156,7 @@ permalink: /reading/
 
 
 
-  <div class="reading-item" data-tags="AI Equity">
-    <p><strong>Title:</strong> <a href="https://www.ruhabenjamin.com/books" target="_blank">Race After Technology</a></p>
-    <p><strong>Author(s):</strong> Ruha Benjamin</p>
-    <p><strong>Year:</strong> 2019</p>
-    <p><strong>Link Source:</strong> Polity Press</p>
-    <p><strong>Tags:</strong> AI, Equity</p>
-    <p><strong>Reflection:</strong> Bias is not a bug — often it's the product. New Jim Code is essential reading.</p>
-  </div>
+  
 
 </div>
 
@@ -169,7 +167,7 @@ permalink: /reading/
   <li><strong>Equity:</strong> Social Justice, Fairness, Bias, Ethics</li>
   <li><strong>Design:</strong> Design Thinking, Strategy, UX/UI</li>
   <li><strong>Accessibility:</strong> Digital Access, Disability, Inclusive Design</li>
-  <li><strong>Personal:</strong> Foundational or personally influential work</li>
+  <li><strong>Psychology:</strong> Psychology, therapy, mental health</li>
 </ul>
 
 <script>
