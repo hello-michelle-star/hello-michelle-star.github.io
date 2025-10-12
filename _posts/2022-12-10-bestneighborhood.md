@@ -30,25 +30,29 @@ We define the “best” Pittsburgh neighborhood by kid-centered **funness**. Us
 ---
 
 ## Data
-- Courts & rinks
-- Pools
-- Playgrounds  
+Following data was opensourced from Western Pennsylvania Regional Data Center
+- Basketball/Tennis Court & Rinks data set
+- Pools data set
+- Playgrounds data set
 - Neighborhoods shapefile: `Neighborhoods/Neighborhoods_.shp`
 
-Base map preview:
+**Base map preview:**
 
 ![](/assets/img/best-neighbor/52488d7b955bc2ad490ce946c32d70ee3a282d82.png)
 
 ---
 
+## Python Libraries Used
+`pandas`, `geopandas`, `matplotlib`, `shapely`
+
 ## Results
 
 ### Courts and Rinks
-We tally facilities per neighborhood and rank.
+**We tally facilities per neighborhood and rank.**
 
 ![](/assets/img/best-neighbor/58ee999259a6661bea5cc1bb193e8abc0ee07420.png)
 
-Facility locations over the neighborhood map:
+**Facility locations over the neighborhood map:**
 
 ![](/assets/img/best-neighbor/3cf30ce46fb1e8f180420656c672200dda90d47f.png)
 
@@ -64,19 +68,19 @@ Facility locations over the neighborhood map:
 ### Pools
 We count pools, then emphasize **capacity** to reflect usable water area.
 
-Counts:
+**Counts:**
 
 ![](/assets/img/best-neighbor/477ab8fd7ff6fa6c3eca815e2ffc262680fae82b.png)
 
-Capacity:
+**Capacity (Liters):**
 
 ![](/assets/img/best-neighbor/29a188ab0c51f92a9419fbd4c12f040334c68692.png)
 
-Capacity → points (15–1):
+**Capacity → points (In order to give these large numbers a more useful value, I gave each of the top 15 a score that we can use to choose the final funnest neighborhood.The 1st place got a score of 15, 2nd got 14, 3rd got 13, and so on until the 15th place.)**
 
 ![](/assets/img/best-neighbor/e6cb4c37a658a670e509a8ead4aac1a54ca2ee10.png)
 
-Pool locations:
+**Pool locations:**
 
 ![](/assets/img/best-neighbor/5138ab067a3bcc01b5822581ee001fa236780b37.png)
 
@@ -90,7 +94,7 @@ Pool locations:
 ---
 
 ### Playgrounds
-Counts per neighborhood and map.
+**Counts per neighborhood and map.**
 
 ![](/assets/img/best-neighbor/5c3b9ebc8b7ce65355d05afec08f918cb72f96da.png)
 
@@ -107,23 +111,16 @@ Counts per neighborhood and map.
 
 ## Combined Score
 We union neighborhoods across datasets, then compute:
-> **final_score = pool_points + playground_count + courts_rinks_count**
+`final_score = pool_points + playground_count + courts_rinks_count`
 
-Stacked comparison for the top 15:
+**Stacked comparison for the top 15:**
 
 ![](/assets/img/best-neighbor/224502b146d24fb37f21583be5749f7828bf810a.png)
 
-All facilities on one map  
+**All facilities on one map**
 Key: courts/rinks = purple, pools = blue, playgrounds = salmon.
 
 ![](/assets/img/best-neighbor/4d4f32bfa58a5cddc6cd7653dc45e52f99e46fe2.png)
-
----
-
-## Notes from the Team
-**CAM:** Public pool count is lower than expected; likely only public assets are included.  
-**MICHELLE:** Squirrel Hill South winning matches lived experience.  
-**SOFIA:** Squirrel Hill felt family-oriented from day one.
 
 ---
 
@@ -131,4 +128,3 @@ Key: courts/rinks = purple, pools = blue, playgrounds = salmon.
 **Squirrel Hill South** — 8 playgrounds, 26 courts/rinks, and a moderate pool presence.  
 Runners-up: **Brookline**, **Highland Park**, **Allegheny Center**, **Mount Washington**.
 
-_the end_

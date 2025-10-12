@@ -94,7 +94,7 @@ permalink: /reading/
   <button data-filter="Equity" class="filter-btn">Equity</button>
   <button data-filter="Design" class="filter-btn">Design</button>
   <button data-filter="Accessibility" class="filter-btn">Accessibility</button>
-  <button data-filter="Personal" class="filter-btn">Personal</button>
+  <button data-filter="Psychology" class="filter-btn">Psychology</button>
 </div>
 
 <!-- READING LIST -->
@@ -109,34 +109,34 @@ permalink: /reading/
     <p><strong>Year:</strong> 2024</p>
     <p><strong>Link Source:</strong> arXiv</p>
     <p><strong>Tags:</strong> AI, Equity, HCI</p>
-    <p><strong>Reflection:</strong> Useful evidence that labeling isn’t neutral; annotator identity shifts ground truth.</p>
+    <p><strong>Reflection:</strong>These biases in LLMs need to addressed to ensure equality.</p>
   </div>
 
   <div class="reading-item" data-tags="AI HCI Equity">
-    <p><strong>Title:</strong> <a href="https://arxiv.org/abs/2402.10453" target="_blank">Rigor Is Not Rigid: Provocations for Responsible AI Evaluation</a></p>
+    <p><strong>Title:</strong> <a href="https://arxiv.org/abs/2402.10453" target="_blank">Steering Conversational Large Language Models for Long Emotional Support Conversations</a></p>
     <p><strong>Author(s):</strong> Multiple</p>
     <p><strong>Year:</strong> 2024</p>
     <p><strong>Link Source:</strong> arXiv</p>
     <p><strong>Tags:</strong> AI, HCI, Equity</p>
-    <p><strong>Reflection:</strong> Argues for plural, context-aware evaluation over single-score benchmarking.</p>
+    <p><strong>Reflection:</strong> Useful for AI therapy and mental health support.</p>
   </div>
 
   <div class="reading-item" data-tags="AI">
-    <p><strong>Title:</strong> <a href="https://arxiv.org/abs/2406.07882" target="_blank">Sycophancy to Bootstrapping: Investigating LLM Preference Biases</a></p>
+    <p><strong>Title:</strong> <a href="https://arxiv.org/abs/2406.07882" target="_blank">Designing a Dashboard for Transparency and Control of Conversational AI</a></p>
     <p><strong>Author(s):</strong> Multiple</p>
     <p><strong>Year:</strong> 2024</p>
     <p><strong>Link Source:</strong> arXiv</p>
     <p><strong>Tags:</strong> AI</p>
-    <p><strong>Reflection:</strong> Documents identity- and preference-tracking behavior that can distort assistance quality.</p>
+    <p><strong>Reflection:</strong> User identity and demographic can distort AI assistance quality.</p>
   </div>
 
   <div class="reading-item" data-tags="AI Equity HCI">
-    <p><strong>Title:</strong> <a href="https://arxiv.org/html/2403.18148v1" target="_blank">ASEC: The Annotators' Social and Epistemic Characteristics Dataset</a></p>
-    <p><strong>Author(s):</strong> Multiple</p>
+    <p><strong>Title:</strong> <a href="https://arxiv.org/html/2403.18148v1" target="_blank">Large Language Models Produce Responses Perceived to be Empathic</a></p>
+    <p><strong>Author(s):</strong> Yoon Kyung Lee</p>
     <p><strong>Year:</strong> 2024</p>
     <p><strong>Link Source:</strong> arXiv</p>
     <p><strong>Tags:</strong> AI, Equity, HCI</p>
-    <p><strong>Reflection:</strong> Infrastructure for studying who labels data and how identities shape annotation.</p>
+    <p><strong>Reflection:</strong> NLP analysis and linguistic semantics appproach to perceiving empathy.</p>
   </div>
 
   
