@@ -112,12 +112,12 @@ permalink: /reading/
     <p><strong>Reflection:</strong>These biases in LLMs need to addressed to ensure equality.</p>
   </div>
 
-  <div class="reading-item" data-tags="AI HCI Equity">
+  <div class="reading-item" data-tags="AI HCI Equity Psychology">
     <p><strong>Title:</strong> <a href="https://arxiv.org/abs/2402.10453" target="_blank">Steering Conversational Large Language Models for Long Emotional Support Conversations</a></p>
     <p><strong>Author(s):</strong> Multiple</p>
     <p><strong>Year:</strong> 2024</p>
     <p><strong>Link Source:</strong> arXiv</p>
-    <p><strong>Tags:</strong> AI, HCI, Equity</p>
+    <p><strong>Tags:</strong> AI, HCI, Equity, Psychology</p>
     <p><strong>Reflection:</strong> Useful for AI therapy and mental health support.</p>
   </div>
 
@@ -130,12 +130,12 @@ permalink: /reading/
     <p><strong>Reflection:</strong> User identity and demographic can distort AI assistance quality.</p>
   </div>
 
-  <div class="reading-item" data-tags="AI Equity HCI">
+  <div class="reading-item" data-tags="AI Equity HCI Psychology">
     <p><strong>Title:</strong> <a href="https://arxiv.org/html/2403.18148v1" target="_blank">Large Language Models Produce Responses Perceived to be Empathic</a></p>
     <p><strong>Author(s):</strong> Yoon Kyung Lee</p>
     <p><strong>Year:</strong> 2024</p>
     <p><strong>Link Source:</strong> arXiv</p>
-    <p><strong>Tags:</strong> AI, Equity, HCI</p>
+    <p><strong>Tags:</strong> AI, Equity, HCI, Psychology</p>
     <p><strong>Reflection:</strong> NLP analysis and linguistic semantics appproach to perceiving empathy.</p>
   </div>
 
