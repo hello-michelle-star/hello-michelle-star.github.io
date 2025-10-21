@@ -161,15 +161,14 @@ letter-spacing: .06em; }
 <section class="research-section">
   <h2>Research Statement</h2>
   <p>
-    I study how AI systems reproduce or resist structural inequities in transportation, mental health, and digital accessibility.
-    Current focus: auditing empathetic disparities in LLM responses and building accessibility tools that center disabled users.
+    I am interested in research that centers underserved communities and creating more equity in technology. Currently I am focussed on AI therapy and support in conversations across demographics. This hopefully will address the biases in AI systems towards certain communities. I am also doing research about the prospects of using LLMS to address the gap in finding accessible transportation for people with disabilities. This work has stemmed into a deep interest in Human-AI interaction and Accessible Technology.
   </p>
 </section>
 
 <section class="research-section">
   <h2>BPhil Thesis <span class="status">in progress</span></h2>
   <article class="card">
-    <h3>Algorithmic Empathy: Evaluating Demographic Bias in LLM-Generated Emotional Support</h3>
+    <h3>Simulating the User: Multi-Turn Evaluations of Conversational AI Support Across Demographic Contexts</h3>
     <ul class="meta">
       <li><strong>Mentor:</strong> <a class="ext" href="https://www.dins.pitt.edu/people/yu-ru-lin" target="_blank" rel="noopener">
     Dr. Yu-Ru Lin
@@ -179,11 +178,10 @@ letter-spacing: .06em; }
   <a class="ext" href="https://www.frederickhonors.pitt.edu/academics/bachelor-philosophy-bphil-degree" target="_blank" rel="noopener">
     BPhil
   </a> in Data Science, David C. Frederick Honors College University of Pittsburgh</li>
-      <li><strong>Methods:</strong> mixed-methods audit; prompt experiments across models; sentiment + linguistic markers; resource-link evaluation</li>
+      <li><strong>Methods:</strong> Multi-turn simulation; NLP sentiment & linguistic tools; Data analysis</li>
     </ul>
     <p>
-      Audit empathetic variance in LLM replies to distress posts from demographically distinct Reddit communities
-      (e.g., r/TwoXChromosomes, r/NonBinary, r/Veterans). Evaluate validation language, actionability, and safety resources.
+      I am auditing support variance and bias in LLM support with demographically distinct Reddit communities. Prior work has shown that LLM performance can degrade over multiple turns suggesting that biases not apparent in a single response may emerge over the course of a longer interaction. In this work I will be simulating multi-turn conversations using posts across subcommunities (e.g., r/TwoXChromosomes, r/NonBinary, r/Daddit) to reveal these discrepencies and hopefully add to the greater body of work towards equitable AI support.
     </p>
   </article>
 </section>
@@ -196,29 +194,26 @@ letter-spacing: .06em; }
       <h3>PICSO Lab</h3>
       <p>Computational social dynamics and HCI.</p>
       <ul class="meta">
-        <li>RA: NLP data extraction, classification, weekly reading group</li>
-        <li>Advisor team exposure: fairness, bias, user modeling</li>
+        <li>RA: NLP keyword extraction and classification, weekly research paper reading</li>
+        <li>Recieving mentorship for my independent research thesis</li>
       </ul>
       <a class="btn" href="https://picsolab.github.io/" target="_blank" rel="noopener">Visit Lab</a>
     </article>
-
     <article class="card">
       <h3>CivicWatch</h3>
-      <p>NLP for legislative transparency and policy communication.</p>
+      <p>Tasks from NLP for legislative transparency and policy communication, to front end interface design</p>
       <ul class="meta">
         <li>Extract and classify political discourse on social media</li>
-        <li>Focus on language, power, and alignment</li>
+        <li>Project focusses on relief in the misinformation epidemic</li>
       </ul>
       <a class="btn" href="https://civicwatch.io/?noredirect=true" target="_blank" rel="noopener">Project Site</a>
     </article>
-
     <article class="card">
       <h3>AccessiRide</h3>
-      <p>Multimodal WAV discovery with LLM agents contacting providers.</p>
+      <p>System to easily discover Wheelchair Accessible Vehicles near you with LLM agents that will contact providers for you.</p>
       <ul class="meta">
         <li>1st place, Wireless Innovation Hackathon for Accessibility</li>
-        <li>Prototype informed by participatory work with a CP user</li>
-        <li>Grant discussion with Pitt SHRS for clinical integration</li>
+        <li>Created working prototype that was developed in consultation with a person from the disability community </li>
       </ul>
       <a class="btn" href="{{ '/projects/accessiride' | relative_url }}">Case Study</a>
     </article>
@@ -230,17 +225,17 @@ letter-spacing: .06em; }
   <div class="grid">
     <article class="card">
       <h3>Latitude AI (Ford)</h3>
-      <p>Data pipeline for road-construction signals into navigation.</p>
+      <p>Data pipeline of road work zones for autonomous vehicles.</p>
       <ul class="meta">
-        <li>Reliability for safety-critical systems</li>
+        <li>Pulling information from open sourced data from all over the US and analyzing the information to create safer self driving cars.</li>
       </ul>
     </article>
 
     <article class="card">
       <h3>Osher Lifelong Learning Institute</h3>
-      <p>UX/UI redesign for screen-reader accessibility; WCAG-aligned.</p>
+      <p>UX/UI redesign for modernity and accessibility for an older audience.</p>
       <ul class="meta">
-        <li>User research and semantic HTML improvements</li>
+        <li>Researching insufficiencies in current website, making information screen reader friendly, creating an intuitive website flow. </li>
       </ul>
     </article>
   </div>
@@ -285,9 +280,8 @@ letter-spacing: .06em; }
 </section>
 
 <section class="research-section">
-  <h2>Advising Fit</h2>
+  <h2>PhD Advising Fit</h2>
   <p>
-    Interests align with disability-centered interaction, algorithmic transparency,
-    and AI-augmented accessibility.
+    Seeking research support in Human-AI interaction, accessible and assistive technologies, and human connection systems with technology. I am excited to learn new things in the ever evolving field of technology and make a real impact on humanity.
   </p>
 </section>

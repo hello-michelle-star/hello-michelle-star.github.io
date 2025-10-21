@@ -5,11 +5,8 @@ description: "Research Paper on How Dating Apps Fuel Modern Loneliness and Disco
 image: dating.jpg
 ---
 
-> **TL;DR**  
-> Dating apps promise connection yet often heighten isolation. Abundance of choice, gamified design, and socially disconnected courtship can damage self-esteem and normalize disposable relationships. Some studies report benefits, but the modern attention economy and scale complicate earlier findings. Meaningful connection requires intentional use beyond the swipe.
-
 ## Abstract
-Technology now mediates core social tasks, including romance. This essay argues that contemporary dating apps can intensify loneliness by removing courtship from shared social contexts, normalizing disengagement behaviors, and overwhelming users with choices. Drawing on reporting and research (Pew, Guardian, University of Vienna, UChicago), it situates dating apps within broader attention economies and questions their long-term social effects.
+Technology and apps now house our core social tasks, including romance. This essay argues that dating apps can intensify loneliness and feelings of anxiety due to normalizing disengagement behaviors, and overwhelming users with choices. Drawing on reporting and research (Pew, Guardian, University of Vienna, UChicago), it situates dating apps within broader "attention economies" and questions their long-term effects on socialization and well-being.
 
 ---
 
@@ -46,13 +43,13 @@ In conclusion, the influence of dating apps on contemporary relationships and pe
 
 ## Works Cited
 
-Crisell, Hattie. “'We're addicted to 'stable ambiguity'' — how dating apps rewired our brains forever.” Evening Standard, 7 September 2022, https://www.standard.co.uk/lifestyle/dating-apps-bumble-tinder-hinge-science-addiction-games-science-neuroscience-b1023546.html. Accessed 12 February 2024.
+Crisell, Hattie. “‘We’re addicted to ‘stable ambiguity’’ — how dating apps rewired our brains forever.” *Evening Standard*, 7 September 2022, https://www.standard.co.uk/lifestyle/dating-apps-bumble-tinder-hinge-science-addiction-games-science-neuroscience-b1023546.html. Accessed 12 February 2024.
 
-Ferguson, Donna. “How online dating has changed the way we fall in love.” The Guardian, 13 February 2022, https://www.theguardian.com/lifeandstyle/2022/feb/13/how-online-dating-has-changed-the-way-we-fall-in-love. Accessed 12 February 2024.
+Ferguson, Donna. “How online dating has changed the way we fall in love.” *The Guardian*, 13 February 2022, https://www.theguardian.com/lifeandstyle/2022/feb/13/how-online-dating-has-changed-the-way-we-fall-in-love. Accessed 12 February 2024.
 
-Gelles, Risa. “5 facts about single Americans for Valentine’s Day.” Pew Research Center, 8 February 2023, https://www.pewresearch.org/short-reads/2023/02/08/for-valentines-day-5-facts-about-single-americans/. Accessed 12 February 2024.
+Gelles, Risa. “5 facts about single Americans for Valentine’s Day.” *Pew Research Center*, 8 February 2023, https://www.pewresearch.org/short-reads/2023/02/08/for-valentines-day-5-facts-about-single-americans/. Accessed 12 February 2024.
 
-Harms, William. “Meeting online leads to happier, more enduring marriages.” UChicago News, 3 June 2013, https://news.uchicago.edu/story/meeting-online-leads-happier-more-enduring-marriages. Accessed 12 February 2024.
+Harms, William. “Meeting online leads to happier, more enduring marriages.” *UChicago News*, 3 June 2013, https://news.uchicago.edu/story/meeting-online-leads-happier-more-enduring-marriages. Accessed 12 February 2024.
 
-Palloks, Adriana Sofia. “The agony of choice – The effects of dating apps on our well-being.” 29 October 2021, https://publizistik.univie.ac.at/en/news/latest-news/single-news/news/the-agony-of-choice-the-effects-of-dating-apps-on-our-well-being/. Accessed 12 February 2024.
+Palloks, Adriana Sofia. “The agony of choice – The effects of dating apps on our well-being.” *University of Vienna (Publizistik)*, 29 October 2021, https://publizistik.univie.ac.at/en/news/latest-news/single-news/news/the-agony-of-choice-the-effects-of-dating-apps-on-our-well-being/. Accessed 12 February 2024.
 

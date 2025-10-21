@@ -8,44 +8,54 @@ image: hack.jpg
 
 ## Project Brief
 
-**AccessiRide** is a multimodal platform that aggregates wheelchair-accessible vehicle (WAV) options across fragmented transit providers and, using an AI agent, contacts providers by phone or email to retrieve **fare estimates, availability, and coverage zones** for users. We built it to reduce the time, effort, and communication burden placed on disabled riders.
+**AccessiRide** is a multimodal platform across app, website, and phone call that aggregates wheelchair-accessible vehicle (WAV) options across all transit providers and, using an AI agent, contacts providers by phone or email to retrieve **fare estimates, availability, and coverage zones** for users. We built it to reduce the time, effort, and communication burden placed on disabled riders.
 
 - **Event:** Wireless Innovation Hackathon for Accessibility  
 - **Role:** Team lead
 - **Outcome:** **First Place**, **$1,500** prize  
-- **Follow-on:** Entered in the Kuzneski Innovation Cup for mentorship and funding; invited by the University of Pittsburgh School of Health & Rehabilitation Sciences to apply for grant support to integrate AccessiRide into patient transportation workflows.
+- **Follow-on:** ↠ Entered in the Kuzneski Innovation Cup for mentorship and funding.<br> 
+↠ Invited by the University of Pittsburgh School of Health & Rehabilitation Sciences to apply for grant support to integrate AccessiRide into patient transportation workflows.<br>
+↠ Showcasing as Higher Ed Student Spotlight at The Global Impact Forum.<br>
+↠ Ongoing research in interviewing about user needs from the disability community and integrating with current WAV companies.<br>
 
 ---
+## Winners Announcement in News Letter
 <style>
+<style>
+/* existing callout styles (unchanged) */
 .callout{border:1px solid #e6e6e6;border-radius:14px;padding:14px;margin:18px 0;background:#fafafa}
 .callout h3{margin:0 0 6px;font-size:1.05rem}
 .callout blockquote{margin:8px 0 0;padding-left:12px;border-left:3px solid #ddd;color:#333}
 .callout a{font-weight:600;text-decoration:none}
 .callout .meta{color:#555;font-size:.95rem;margin-top:6px}
-</style>
 
-<style>
+/* press preview styles */
 .press-preview{
-  position:relative; display:block; border:1px solid #e6e6e6; border-radius:14px;
-  overflow:hidden; background:#fafafa; box-shadow:0 2px 6px rgba(0,0,0,.06);
+  position:relative; display:block;
+  border:0; border-radius:14px;
+  overflow:hidden; background:transparent; /* match page bg */
+  box-shadow:none;                         /* remove drop shadow */
 }
 .press-preview img{
   display:block; width:100%; height:auto; object-fit:cover;
   transition:transform .2s ease;
 }
 .press-preview:hover img{ transform:scale(1.01); }
+
 .press-overlay{
   position:absolute; inset:auto 12px 12px auto; /* bottom-right */
   background:rgba(17,17,17,.86); color:#fff; font-weight:600; font-size:.95rem;
-  padding:8px 12px; border-radius:10px; transform:translateY(4px);
-  transition:transform .2s ease, opacity .2s ease; opacity:.9;
+  padding:8px 12px; border-radius:10px; border:1px solid transparent;
+  transform:translateY(4px);
+  transition:transform .2s ease, opacity .2s ease, background-color .15s ease, color .15s ease, border-color .15s ease;
+  opacity:.95;
 }
-.press-preview:hover .press-overlay{ transform:translateY(0); opacity:1; }
-.press-caption{
-  padding:10px 12px; background:#fff; border-top:1px solid #fff; color:#444;
-  font-size:.95rem;
+.press-preview:hover .press-overlay{
+  transform:translateY(0);
+  background:#fff;          /* invert on hover */
+  color:#111;               /* invert on hover */
+  border-color:#111;        /* crisp edge on hover */
 }
-.press-caption strong{ color:#111; }
 </style>
 
 <a class="press-preview" href="https://www.smarttech.pitt.edu/news/2025hackathon" target="_blank" rel="noopener">
@@ -58,40 +68,20 @@ image: hack.jpg
 
 ## The Problem
 
-Wheelchair-accessible transportation information is scattered across agencies and vendors. Booking often requires **multiple calls** and **repeating access needs**, which is especially hard for riders with speech differences.  
-Monica, a woman with cerebral palsy, told us she spends hours researching and calling providers and is often **misunderstood or ignored**.
+When Monica, a woman with cerebral palsy, told me that booking a simple taxi requires her to spend hours contacting companies at least three days in advance. All this work only to face frequent misunderstandings due to her speech impediment, unclear pricing, or being told they don’t serve the area she needs. Even the School of Health and Rehabilitation Sciences told us that the number one reason patients with disabilities miss appointments is the not being able to find accessible transportation.<br>
+I couldn’t help but think there has to be a better way. For able-bodied people, getting a ride is effortless, with countless options available at any time and everything clearly laid out. Thats why we thought of a realistic tech solution using the current infrastructure, that really should've been made years ago.
 
 ---
 
 ## What We Built
-
-- **Unified access points:** app, website, and phone line.  
-- **AI agent:** automatically reaches out to transit providers via phone or email, asks standardized questions, and parses responses.  
-- **Real-time aggregation:** normalizes provider data into one view so riders can compare options quickly without making repeated calls.
-
-**Design principle:** keep Monica and riders like her **in the loop**, not **out of the way**. I stayed in close contact with her throughout development to ground decisions in lived experience.
-
 <img src="/assets/img/hackathon/IMG_4380.JPG" alt="Judges session">
----
 
-## How It Works
-
-1. User specifies origin, destination, time window, and access needs.  
-2. System queries known WAV providers and, when needed, the **AI agent** calls or emails to fill gaps.  
-3. Results are returned in a single interface with **prices**, **availability**, and **coverage**.  
-4. User books directly or requests that AccessiRide complete the outreach.
+- AccessiRide works as an app, website, or (for people without a smart phone) phone line.  
+- Tell the AI agent where you need to go and it automatically returns transportation option and reaches out to wheelchair accessible transit providers via phone or email, asks standardized questions, and returns fairs, times, and offers the option to book.  
+- The app is accessibility friendly with screenreaders and meets WCAG and ADA standards. It seemlessly provides all options into one view so riders can compare quickly.
 
 ---
-
-## Impact
-
-- Eliminates repetitive, high-friction calls for riders with speech impediments.  
-- Surfaces **verified** WAV options faster.  
-- Supports clinics where missed appointments are tied to transportation barriers, a key **health-equity** issue highlighted by Pitt SHRS.
-
----
-
-## Demo Video
+## Watch the Demo Video
 
 <!-- Responsive YouTube embed -->
 <div style="position:relative;width:100%;max-width:900px;aspect-ratio:16/9;">
@@ -106,9 +96,6 @@ Monica, a woman with cerebral palsy, told us she spends hours researching and ca
 
 <!-- Optional: visible fallback link -->
 <p><a href="https://youtu.be/Ch7b2W26PNE" target="_blank" rel="noopener">Watch on YouTube ↗</a></p>
-
-
-
 
 
 ---
@@ -147,21 +134,12 @@ Monica, a woman with cerebral palsy, told us she spends hours researching and ca
 
 ---
 
-## Technical Notes
-
-- Multimodal interface: web, app, and phone entry points.  
-- Provider outreach: LLM-driven agent for **phone/email** communication, with structured prompts and parsing.  
-- Data layer: normalized schema for provider metadata, availability, and fares.  
-- Privacy: stores only what is necessary for outreach and booking.
-
----
-
 ## What’s Next
 
-- Formalize provider integrations and SLAs.  
-- Expand coverage beyond the initial region.  
-- Clinical pilot with Pitt SHRS to reduce missed appointments.  
-- Usability testing with riders across speech and mobility profiles.
+- Chosen to showcase as Higher Ed Spotlight at the The Global Impact Forum
+- Compete at the Kuzneski Innovation Cup to secure mentorship and funding.
+- Apply for grants through Pitt SHRS.  
+- User research and interviewing both potential users and WAV companies.
 
 ---
 

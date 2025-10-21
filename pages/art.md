@@ -101,11 +101,11 @@ dialog::backdrop{background:rgba(0,0,0,.7)}
     <!-- Drawings (replace src with your files in /assets/art/) -->
 <!-- Drawings -->
 <article class="card" data-cat="drawing">
-  <img class="thumb" src="/assets/img/art/boy.jpg" alt="Pencil portrait of a boy" loading="lazy">
-  <div class="meta"><span class="title">Portrait — Boy</span></div>
+  <img class="thumb" src="/assets/img/art/boy.jpg" alt="Pencil portrait" loading="lazy">
+  <div class="meta"><span class="title">Portrait</span></div>
   <p class="details">Graphite on paper. 2024.</p>
   <div class="actions">
-    <button class="btn view-btn" data-full="/assets/img/art/boy.jpg" data-title="Portrait — Boy (Pencil)">View</button>
+    <button class="btn view-btn" data-full="/assets/img/art/boy.jpg" data-title="Portrait (Pencil)">View</button>
   </div>
 </article>
 
@@ -123,14 +123,14 @@ dialog::backdrop{background:rgba(0,0,0,.7)}
   <div class="meta"><span class="title">Study — Mouth</span></div>
   <p class="details">Form and shading study. 2025.</p>
   <div class="actions">
-    <button class="btn view-btn" data-full="/assets/img/art/mouth.jpg" data-title="Study — Mouth (Pencil)">View</button>
+    <button class="btn view-btn" data-full="/assets/img/art/mouth.jpg" data-title="Mouth (Pencil)">View</button>
   </div>
 </article>
 
 <article class="card">
   <img class="thumb" src="/assets/img/art/body.jpg" alt="Pencil figure study" loading="lazy">
   <div class="meta"><span class="title">Figure Study</span></div>
-  <p class="details">Gesture and anatomy. 2025.</p>
+  <p class="details">Human form. 2025.</p>
   <div class="actions">
     <button class="btn view-btn" data-full="/assets/img/art/body.jpg" data-title="Figure Study (Pencil)">View</button>
   </div>

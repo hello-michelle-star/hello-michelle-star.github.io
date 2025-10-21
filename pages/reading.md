@@ -109,7 +109,7 @@ permalink: /reading/
     <p><strong>Year:</strong> 2024</p>
     <p><strong>Link Source:</strong> arXiv</p>
     <p><strong>Tags:</strong> AI, Equity, HCI</p>
-    <p><strong>Reflection:</strong>These biases in LLMs need to addressed to ensure equality.</p>
+    <p><strong>Note:</strong>These biases in LLMs need to addressed to ensure equality.</p>
   </div>
 
   <div class="reading-item" data-tags="AI HCI Equity Psychology">
@@ -118,7 +118,7 @@ permalink: /reading/
     <p><strong>Year:</strong> 2024</p>
     <p><strong>Link Source:</strong> arXiv</p>
     <p><strong>Tags:</strong> AI, HCI, Equity, Psychology</p>
-    <p><strong>Reflection:</strong> Useful for AI therapy and mental health support.</p>
+    <p><strong>Note:</strong> Useful for AI therapy and mental health support.</p>
   </div>
 
   <div class="reading-item" data-tags="AI">
@@ -127,7 +127,7 @@ permalink: /reading/
     <p><strong>Year:</strong> 2024</p>
     <p><strong>Link Source:</strong> arXiv</p>
     <p><strong>Tags:</strong> AI</p>
-    <p><strong>Reflection:</strong> User identity and demographic can distort AI assistance quality.</p>
+    <p><strong>Note:</strong> User identity and demographic can distort AI assistance quality.</p>
   </div>
 
   <div class="reading-item" data-tags="AI Equity HCI Psychology">
@@ -136,7 +136,7 @@ permalink: /reading/
     <p><strong>Year:</strong> 2024</p>
     <p><strong>Link Source:</strong> arXiv</p>
     <p><strong>Tags:</strong> AI, Equity, HCI, Psychology</p>
-    <p><strong>Reflection:</strong> NLP analysis and linguistic semantics appproach to perceiving empathy.</p>
+    <p><strong>Note:</strong> NLP analysis and linguistic semantics appproach to perceiving empathy.</p>
   </div>
 
   
@@ -151,7 +151,7 @@ permalink: /reading/
   <p><strong>Year:</strong> 2016</p>
   <p><strong>Link Source:</strong> ACM CHI Conference</p>
   <p><strong>Tags:</strong> HCI, Accessibility, Design</p>
-  <p><strong>Reflection:</strong> The key insight here is that designing for both disabled and non-disabled users surfaces tensions—like between functional and social needs—forcing designers to move beyond ableist assumptions.</p>
+  <p><strong>Note:</strong> I enjoyed how it discusses the process of designing for diabled users.</p>
 </div>
 
 
