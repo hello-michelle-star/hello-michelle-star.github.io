@@ -266,7 +266,7 @@ letter-spacing: .06em; }
     </li>
     <li>
       <!-- replace href with your public post URL when ready -->
-      <a class="link-card" href="https://www.linkedin.com/posts/accessible-smarttech_accessibletech-inclusivedesign-wirelessinnovation-activity-7382441032090710018-kX7p?utm_source=share&utm_medium=member_desktop&rcm=ACoAADvI5XcBE6_LV_xUDxjRAVuX1iBPRHv4COo/" target="_blank" rel="noopener" aria-label="LinkedIn post: Wireless Innovation Hackathon for Accessibility—First Place">
+      <a class="link-card" href="https://www.smarttech.pitt.edu/news/2025hackathon" target="_blank" rel="noopener" aria-label="LinkedIn post: Wireless Innovation Hackathon for Accessibility—First Place">
         <span class="title">Wireless Innovation Hackathon for Accessibility — 🥇 1st Place </span>
         <span class="meta">View Winners Announcement</span>
         <span class="icon" aria-hidden="true">↗</span>

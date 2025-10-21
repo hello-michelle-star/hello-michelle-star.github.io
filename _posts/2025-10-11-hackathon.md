@@ -16,6 +16,45 @@ image: hack.jpg
 - **Follow-on:** Entered in the Kuzneski Innovation Cup for mentorship and funding; invited by the University of Pittsburgh School of Health & Rehabilitation Sciences to apply for grant support to integrate AccessiRide into patient transportation workflows.
 
 ---
+<style>
+.callout{border:1px solid #e6e6e6;border-radius:14px;padding:14px;margin:18px 0;background:#fafafa}
+.callout h3{margin:0 0 6px;font-size:1.05rem}
+.callout blockquote{margin:8px 0 0;padding-left:12px;border-left:3px solid #ddd;color:#333}
+.callout a{font-weight:600;text-decoration:none}
+.callout .meta{color:#555;font-size:.95rem;margin-top:6px}
+</style>
+
+<style>
+.press-preview{
+  position:relative; display:block; border:1px solid #e6e6e6; border-radius:14px;
+  overflow:hidden; background:#fafafa; box-shadow:0 2px 6px rgba(0,0,0,.06);
+}
+.press-preview img{
+  display:block; width:100%; height:auto; object-fit:cover;
+  transition:transform .2s ease;
+}
+.press-preview:hover img{ transform:scale(1.01); }
+.press-overlay{
+  position:absolute; inset:auto 12px 12px auto; /* bottom-right */
+  background:rgba(17,17,17,.86); color:#fff; font-weight:600; font-size:.95rem;
+  padding:8px 12px; border-radius:10px; transform:translateY(4px);
+  transition:transform .2s ease, opacity .2s ease; opacity:.9;
+}
+.press-preview:hover .press-overlay{ transform:translateY(0); opacity:1; }
+.press-caption{
+  padding:10px 12px; background:#fff; border-top:1px solid #fff; color:#444;
+  font-size:.95rem;
+}
+.press-caption strong{ color:#111; }
+</style>
+
+<a class="press-preview" href="https://www.smarttech.pitt.edu/news/2025hackathon" target="_blank" rel="noopener">
+  <img
+    src="/assets/img/hackathon/news.png"
+    alt="SmartTech article screenshot: DevDash team wins; quote from Michelle Star about HCI and assistive technology."
+    loading="lazy" decoding="async" />
+  <span class="press-overlay">View article ↗</span>
+
 
 ## The Problem
 
@@ -129,7 +168,6 @@ Monica, a woman with cerebral palsy, told us she spends hours researching and ca
 
 <p>
   <img src="/assets/img/hackathon/IMG_4381.JPG" alt="Team photo">
-  <img src="/assets/img/hackathon/IMG_4383 2.jpg" alt="AccessiRide UI mock">
 </p>
 
 ---
