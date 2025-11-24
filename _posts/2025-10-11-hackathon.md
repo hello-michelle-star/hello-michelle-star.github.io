@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "AccessiRide Hackathon Win"
+permalink: /projects/accessiride/
 description: "Learn about the whirlwind weekend AccessiRide was born."
 image: hack.jpg
 ---
@@ -68,8 +69,8 @@ image: hack.jpg
 
 ## The Problem
 
-When Monica, a woman with cerebral palsy, told me that booking a simple taxi requires her to spend hours contacting companies at least three days in advance. All this work only to face frequent misunderstandings due to her speech impediment, unclear pricing, or being told they don’t serve the area she needs. Even the School of Health and Rehabilitation Sciences told us that the number one reason patients with disabilities miss appointments is the not being able to find accessible transportation.<br>
-I couldn’t help but think there has to be a better way. For able-bodied people, getting a ride is effortless, with countless options available at any time and everything clearly laid out. Thats why we thought of a realistic tech solution using the current infrastructure, that really should've been made years ago.
+When Monica, a woman with cerebral palsy, told me that booking a simple taxi requires her to spend hours contacting companies at least three days in advance. All this work only to face frequent misunderstandings due to her speech impediment, unclear pricing, or being told they don’t serve the area she needs. Even the School of Health and Rehabilitation Sciences told us that the number one reason patients with disabilities miss appointments is not being able to find accessible transportation.<br>
+I couldn’t help but think there has to be a better way. For able-bodied people, getting a ride is effortless, with countless options available at any time and everything clearly laid out. That's why we thought of a realistic tech solution using the current infrastructure, that really should've been made years ago.
 
 ---
 
@@ -77,8 +78,8 @@ I couldn’t help but think there has to be a better way. For able-bodied people
 <img src="/assets/img/hackathon/IMG_4380.JPG" alt="Judges session">
 
 - AccessiRide works as an app, website, or (for people without a smart phone) phone line.  
-- Tell the AI agent where you need to go and it automatically returns transportation option and reaches out to wheelchair accessible transit providers via phone or email, asks standardized questions, and returns fairs, times, and offers the option to book.  
-- The app is accessibility friendly with screenreaders and meets WCAG and ADA standards. It seemlessly provides all options into one view so riders can compare quickly.
+- Tell the AI agent where you need to go and it automatically returns transportation option and reaches out to wheelchair accessible transit providers via phone or email, asks standardized questions, and returns fares, times, and offers the option to book.  
+- The app is accessibility friendly with screenreaders and meets WCAG and ADA standards. It seamlessly provides all options into one view so riders can compare quickly.
 
 ---
 ## Watch the Demo Video
@@ -136,7 +137,7 @@ I couldn’t help but think there has to be a better way. For able-bodied people
 
 ## What’s Next
 
-- Chosen to showcase as Higher Ed Spotlight at the The Global Impact Forum
+- Chosen to showcase as Higher Ed Spotlight at The Global Impact Forum
 - Compete at the Kuzneski Innovation Cup to secure mentorship and funding.
 - Apply for grants through Pitt SHRS.  
 - User research and interviewing both potential users and WAV companies.

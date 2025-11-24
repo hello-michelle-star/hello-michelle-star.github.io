@@ -37,7 +37,7 @@ permalink: /about/
     </div>
     <div class="bio">
       <h4>Leading with Empathy</h4>
-      <p>Some of my most formative experiences have come from working with kids at YMCA Camp Kon-O-Kwee Spencer and St. Edmund's Academy. As Village Director at camp, I mentored a team of counselors, and I learned how there's no algorithm to creating an inclusive space. It's about listening, adapting, and centering the people you're designing it for. From planning programming with campers needs in mind or helping my staff when things were difficult, I saw how leadership coming from empathy creates space for everyone to thrive. These experiences taught me that the best researchers aren't just good at building, they're good at understanding people. That's the kind of researcher I want to be.</p>
+      <p>Some of my most formative experiences have come from working with kids at YMCA Camp Kon-O-Kwee Spencer and St. Edmund's Academy. As Village Director at camp, I mentored a team of counselors, and I learned that there is no algorithm to creating an inclusive space. It's about listening, adapting, and centering the people you're designing it for. From planning programming with campers needs in mind or helping my staff when things were difficult, I saw how leadership coming from empathy creates space for everyone to thrive. These experiences taught me that the best researchers aren't just good at building, they're good at understanding people. That's the kind of researcher I want to be.</p>
     </div>
   </div>
 

@@ -91,7 +91,7 @@ dialog::backdrop{background:rgba(0,0,0,.7)}
 
 <header class="art-hero">
   <h1></h1>
-  <p>I'm a Self-Taught artist. Here are some of my portrait drawings and art studies.</p>
+  <p>I'm a self-taught artist who first started drawing during the pandemic as a way to pass the time. I've always had an eye for aesthetics and view art as an essential escape. Here are some of my portrait drawings and art studies.</p>
 </header>
 
 

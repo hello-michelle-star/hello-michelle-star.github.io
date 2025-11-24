@@ -30,7 +30,7 @@ We define the “best” Pittsburgh neighborhood by kid-centered **funness**. Us
 ---
 
 ## Data
-Following data was opensourced from Western Pennsylvania Regional Data Center
+The following data was open-sourced from Western Pennsylvania Regional Data Center
 - Basketball/Tennis Court & Rinks data set
 - Pools data set
 - Playgrounds data set

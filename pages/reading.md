@@ -102,19 +102,28 @@ permalink: /reading/
 
   
 
+  <div class="reading-item" data-tags="AI HCI">
+    <p><strong>Title:</strong> <a href="https://arxiv.org/html/2505.06120v1" target="_blank">LLMs Get Lost In Multi-Turn Conversation</a></p>
+    <p><strong>Author(s):</strong> Philippe Laban, Hiroaki Hayashi, Yingbo Zhou</p>
+    <p><strong>Year:</strong> 2025</p>
+    <p><strong>Link Source:</strong> arXiv</p>
+    <p><strong>Tags:</strong> AI, HCI</p>
+    <p><strong>Note:</strong> LLMs performance degrades after multiple turns. Proposes novel "sharding" framework for simulating conversations.</p>
+  </div>
+
     <!-- NEW: arXiv selections -->
   <div class="reading-item" data-tags="AI Equity HCI">
     <p><strong>Title:</strong> <a href="https://arxiv.org/abs/2410.07991" target="_blank">Human and LLM Biases in Hate Speech Annotations: A Socio-Demographic Analysis of Annotators and Targets</a></p>
-    <p><strong>Author(s):</strong> Multiple</p>
+    <p><strong>Author(s):</strong> Tommaso Giorgi, Lorenzo Cima</p>
     <p><strong>Year:</strong> 2024</p>
     <p><strong>Link Source:</strong> arXiv</p>
     <p><strong>Tags:</strong> AI, Equity, HCI</p>
-    <p><strong>Note:</strong>These biases in LLMs need to addressed to ensure equality.</p>
+    <p><strong>Note:</strong>These biases in LLMs need to be addressed to ensure equality.</p>
   </div>
 
   <div class="reading-item" data-tags="AI HCI Equity Psychology">
     <p><strong>Title:</strong> <a href="https://arxiv.org/abs/2402.10453" target="_blank">Steering Conversational Large Language Models for Long Emotional Support Conversations</a></p>
-    <p><strong>Author(s):</strong> Multiple</p>
+    <p><strong>Author(s):</strong> Navid Madani, Sougata Saha, Rohini Srihari</p>
     <p><strong>Year:</strong> 2024</p>
     <p><strong>Link Source:</strong> arXiv</p>
     <p><strong>Tags:</strong> AI, HCI, Equity, Psychology</p>
@@ -123,7 +132,7 @@ permalink: /reading/
 
   <div class="reading-item" data-tags="AI">
     <p><strong>Title:</strong> <a href="https://arxiv.org/abs/2406.07882" target="_blank">Designing a Dashboard for Transparency and Control of Conversational AI</a></p>
-    <p><strong>Author(s):</strong> Multiple</p>
+    <p><strong>Author(s):</strong> Navid Madani, Sougata Saha, Rohini Srihari</p>
     <p><strong>Year:</strong> 2024</p>
     <p><strong>Link Source:</strong> arXiv</p>
     <p><strong>Tags:</strong> AI</p>
@@ -151,7 +160,7 @@ permalink: /reading/
   <p><strong>Year:</strong> 2016</p>
   <p><strong>Link Source:</strong> ACM CHI Conference</p>
   <p><strong>Tags:</strong> HCI, Accessibility, Design</p>
-  <p><strong>Note:</strong> I enjoyed how it discusses the process of designing for diabled users.</p>
+  <p><strong>Note:</strong> I enjoyed how it discusses the process of designing for disabled users.</p>
 </div>
 
 

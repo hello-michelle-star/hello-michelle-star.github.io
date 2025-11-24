@@ -161,7 +161,7 @@ letter-spacing: .06em; }
 <section class="research-section">
   <h2>Research Statement</h2>
   <p>
-    I am interested in research that centers underserved communities and creating more equity in technology. Currently I am focussed on AI therapy and support in conversations across demographics. This hopefully will address the biases in AI systems towards certain communities. I am also doing research about the prospects of using LLMS to address the gap in finding accessible transportation for people with disabilities. This work has stemmed into a deep interest in Human-AI interaction and Accessible Technology.
+    I am interested in research that centers underserved communities and creating more equity in technology. Currently I am focused on AI therapy and support in conversations across demographics. This hopefully will address the biases in AI systems towards certain communities. I am also doing research about the prospects of using LLMS to address the gap in finding accessible transportation for people with disabilities. This work has stemmed into a deep interest in Human-AI Interaction and Accessible Technology.
   </p>
 </section>
 
@@ -215,7 +215,7 @@ letter-spacing: .06em; }
         <li>1st place, Wireless Innovation Hackathon for Accessibility</li>
         <li>Created working prototype that was developed in consultation with a person from the disability community </li>
       </ul>
-      <a class="btn" href="{{ '/projects/accessiride' | relative_url }}">Case Study</a>
+      <a class="btn" href="{{ '/projects/accessiride/' | relative_url }}">Case Study</a>
     </article>
   </div>
 </section>
@@ -227,7 +227,7 @@ letter-spacing: .06em; }
       <h3>Latitude AI (Ford)</h3>
       <p>Data pipeline of road work zones for autonomous vehicles.</p>
       <ul class="meta">
-        <li>Pulling information from open sourced data from all over the US and analyzing the information to create safer self driving cars.</li>
+        <li>Pulling information from open-source data from all over the US and analyzing the information to create safer self-driving cars.</li>
       </ul>
     </article>
 
@@ -282,6 +282,6 @@ letter-spacing: .06em; }
 <section class="research-section">
   <h2>PhD Advising Fit</h2>
   <p>
-    Seeking research support in Human-AI interaction, accessible and assistive technologies, and human connection systems with technology. I am excited to learn new things in the ever evolving field of technology and make a real impact on humanity.
+    Seeking research support in Human-AI Interaction, accessible and assistive technologies, and human connection systems with technology. I am excited to learn new things in the ever evolving field of technology and make a real impact on humanity.
   </p>
 </section>
