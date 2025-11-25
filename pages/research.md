@@ -206,7 +206,7 @@ letter-spacing: .06em; }
         <li>Extract and classify political discourse on social media</li>
         <li>Project focusses on relief in the misinformation epidemic</li>
       </ul>
-      <a class="btn" href="https://civicwatch.io/?noredirect=true" target="_blank" rel="noopener">Project Site</a>
+      <a class="btn" href="https://gist.github.com/star-michelle/42138c78cd4c288779f967cac5c3b46c" target="_blank" rel="noopener">View NLP Script</a>
     </article>
     <article class="card">
       <h3>AccessiRide</h3>
