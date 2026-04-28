@@ -159,16 +159,34 @@ letter-spacing: .06em; }
 
 
 <section class="research-section">
-  <h2>Research Statement</h2>
-  <p>
-    I am interested in research that centers underserved communities and creating more equity in technology. Currently I am focused on AI therapy and support in conversations across demographics. This hopefully will address the biases in AI systems towards certain communities. I am also doing research about the prospects of using LLMS to address the gap in finding accessible transportation for people with disabilities. This work has stemmed into a deep interest in Human-AI Interaction and Accessible Technology.
-  </p>
+  <h2>Publications</h2>
+  <div class="grid" style="grid-template-columns: 1fr; gap: 24px;">
+    <article class="card">
+      <h3>Evaluating Supportive LLM Behavior Over Multiple Turns across Demographics</h3>
+      <p><strong>Michelle Star</strong></p>
+      <p>Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems (CHI EA '26).</p>
+      <div style="margin-top: 15px; display: flex; gap: 10px;">
+        <a class="btn primary" href="https://dl.acm.org/doi/10.1145/3772363.3799175" target="_blank">ACM</a>
+        <a class="btn" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CPeH-nAAAAAJ&citation_for_view=CPeH-nAAAAAJ:u5HHmVD_uO8C" target="_blank">Google Scholar</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <h3>Auditing Support Strategies in LLMs through Grounded Multi-Turn Social Simulation</h3>
+      <p><strong>Michelle Star</strong>, Andrew Aquilina, Yu-Ru Lin</p>
+      <p>Proceedings of the 2026 International AAAI Conference on Web and Social Media (ICWSM) Workshops.</p>
+      <div style="margin-top: 15px; display: flex; gap: 10px;">
+        <a class="btn primary" href="https://arxiv.org/abs/2604.17079" target="_blank">arXiv Preprint</a>
+        <a class="btn" href="https://openreview.net/pdf?id=OX8jmYlFD4" target="_blank">PDF</a>
+      </div>
+    </article>
+  </div>
 </section>
 
 <section class="research-section">
-  <h2>BPhil Thesis <span class="status">in progress</span></h2>
+  <h2>BPhil Thesis</h2>
   <article class="card">
-    <h3>Simulating the User: Multi-Turn Evaluations of Conversational AI Support Across Demographic Contexts</h3>
+    <h3>Evaluating Supportive LLM Behavior Across User Contexts Using Simulated Multi-Turn Conversations</h3>
     <ul class="meta">
       <li><strong>Mentor:</strong> <a class="ext" href="https://www.dins.pitt.edu/people/yu-ru-lin" target="_blank" rel="noopener">
     Dr. Yu-Ru Lin
