@@ -101,6 +101,15 @@ dialog::backdrop{background:rgba(0,0,0,.7)}
     <!-- Drawings (replace src with your files in /assets/art/) -->
 <!-- Drawings -->
 <article class="card" data-cat="drawing">
+  <img class="thumb" src="/assets/img/art/girl.jpg" alt="Profile portrait" loading="lazy">
+  <div class="meta"><span class="title">Profile Portrait</span></div>
+  <p class="details">Graphite pencil. 2025.</p>
+  <div class="actions">
+    <button class="btn view-btn" data-full="/assets/img/art/girl.jpg" data-title="Profile Portrait">View</button>
+  </div>
+</article>
+
+<article class="card" data-cat="drawing">
   <img class="thumb" src="/assets/img/art/boy.jpg" alt="Pencil portrait" loading="lazy">
   <div class="meta"><span class="title">Portrait</span></div>
   <p class="details">Graphite on paper. 2024.</p>
