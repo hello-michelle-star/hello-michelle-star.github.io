@@ -17,6 +17,8 @@ menu:
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
 - {icon: 'envelope', link:   'mailto:mis250@pitt.edu'}
+- {icon: 'linkedin', link:   'https://www.linkedin.com/in/michelle-star-447ab023b/'}
+- {icon: 'graduation-cap', link: 'https://scholar.google.com/citations?user=CPeH-nAAAAAJ'}
 
 # Customize site text
 
