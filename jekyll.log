@@ -20839,3 +20839,121 @@ WARNING: 7 repetitive deprecation warnings omitted.
 Run in verbose mode to see all warnings.
                     ...done in 0.099548 seconds.
                     
+      Regenerating: 1 file(s) changed at 2026-04-28 12:53:44
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+27 │ @import "-sections-dir";
+   │         ^^^^^^^^^^^^^^^
+   ╵
+    /Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/assets/css/main.scss 27:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+28 │ @import 'about';
+   │         ^^^^^^^
+   ╵
+    /Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/assets/css/main.scss 28:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+2 │ @import "base",
+  │         ^^^^^^
+  ╵
+    _-sections-dir.scss 2:9                                                                       @import
+    /Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/assets/css/main.scss 27:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+3 │         "code",
+  │         ^^^^^^
+  ╵
+    _-sections-dir.scss 3:9                                                                       @import
+    /Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/assets/css/main.scss 27:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+4 │         "default",
+  │         ^^^^^^^^^
+  ╵
+    _-sections-dir.scss 4:9                                                                       @import
+    /Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/assets/css/main.scss 27:9  root stylesheet
+WARNING: 7 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+                    ...done in 0.102608 seconds.
+                    
+[2026-04-28 12:53:44] ERROR Errno::ECONNRESET: Connection reset by peer @ io_fillbuf - fd:21 
+	/Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/vendor/bundle/ruby/3.4.0/gems/webrick-1.9.1/lib/webrick/httpserver.rb:82:in 'IO#eof?'
+	/Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/vendor/bundle/ruby/3.4.0/gems/webrick-1.9.1/lib/webrick/httpserver.rb:82:in 'WEBrick::HTTPServer#run'
+	/Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/vendor/bundle/ruby/3.4.0/gems/webrick-1.9.1/lib/webrick/server.rb:310:in 'block in WEBrick::GenericServer#start_thread'
+      Regenerating: 1 file(s) changed at 2026-04-28 12:53:45
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+27 │ @import "-sections-dir";
+   │         ^^^^^^^^^^^^^^^
+   ╵
+    /Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/assets/css/main.scss 27:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+28 │ @import 'about';
+   │         ^^^^^^^
+   ╵
+    /Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/assets/css/main.scss 28:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+2 │ @import "base",
+  │         ^^^^^^
+  ╵
+    _-sections-dir.scss 2:9                                                                       @import
+    /Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/assets/css/main.scss 27:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+3 │         "code",
+  │         ^^^^^^
+  ╵
+    _-sections-dir.scss 3:9                                                                       @import
+    /Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/assets/css/main.scss 27:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+4 │         "default",
+  │         ^^^^^^^^^
+  ╵
+    _-sections-dir.scss 4:9                                                                       @import
+    /Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/assets/css/main.scss 27:9  root stylesheet
+WARNING: 7 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+                    ...done in 0.0471 seconds.
+                    
+[2026-04-28 12:53:46] ERROR Errno::ECONNRESET: Connection reset by peer @ io_fillbuf - fd:10 
+	/Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/vendor/bundle/ruby/3.4.0/gems/webrick-1.9.1/lib/webrick/httpserver.rb:82:in 'IO#eof?'
+	/Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/vendor/bundle/ruby/3.4.0/gems/webrick-1.9.1/lib/webrick/httpserver.rb:82:in 'WEBrick::HTTPServer#run'
+	/Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/vendor/bundle/ruby/3.4.0/gems/webrick-1.9.1/lib/webrick/server.rb:310:in 'block in WEBrick::GenericServer#start_thread'
