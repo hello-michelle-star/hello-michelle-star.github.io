@@ -21,7 +21,8 @@ permalink: /research/
   background: #fff8f8;
   box-shadow: 0 2px 6px rgba(0,0,0,.04);
 }
-.card h3 { margin: 0 0 6px; font-size: 1.05rem; }
+.card h3 { margin: 0 0 4px; font-size: 1.05rem; line-height: 1.2; }
+.card p { margin: 4px 0; line-height: 1.3; }
 .meta { margin: 8px 0 10px; padding-left: 18px; }
 .meta li { margin: 2px 0; }
 
@@ -160,10 +161,17 @@ letter-spacing: .06em; }
 
 <section class="research-section">
   <h2>Publications</h2>
+  
+  <div style="margin-bottom: 24px;">
+    <a class="btn" href="https://scholar.google.com/citations?user=CPeH-nAAAAAJ" target="_blank" rel="noopener">
+      <i class="fa fa-graduation-cap" aria-hidden="true"></i> Google Scholar Profile
+    </a>
+  </div>
+
   <div class="grid" style="grid-template-columns: 1fr; gap: 24px;">
     <article class="card">
       <h3>Evaluating Supportive LLM Behavior Over Multiple Turns across Demographics</h3>
-      <p><strong>Michelle Star</strong></p>
+      <p><u><strong>Michelle Star</strong></u></p>
       <p>Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems (CHI EA '26).</p>
       <div style="margin-top: 15px; display: flex; gap: 10px;">
         <a class="btn primary" href="https://dl.acm.org/doi/10.1145/3772363.3799175" target="_blank">ACM</a>
@@ -173,7 +181,7 @@ letter-spacing: .06em; }
 
     <article class="card">
       <h3>Auditing Support Strategies in LLMs through Grounded Multi-Turn Social Simulation</h3>
-      <p><strong>Michelle Star</strong>, Andrew Aquilina, Yu-Ru Lin</p>
+      <p><u><strong>Michelle Star</strong></u>, <a href="https://andaqu.github.io/" target="_blank" style="color: #0a58ca; text-decoration: none;">Andrew Aquilina</a>, <a href="https://yurulin.com/" target="_blank" style="color: #0a58ca; text-decoration: none;">Yu-Ru Lin</a></p>
       <p>Proceedings of the 2026 International AAAI Conference on Web and Social Media (ICWSM) Workshops.</p>
       <div style="margin-top: 15px; display: flex; gap: 10px;">
         <a class="btn primary" href="https://arxiv.org/abs/2604.17079" target="_blank">arXiv Preprint</a>
