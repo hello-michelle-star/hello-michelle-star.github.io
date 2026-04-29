@@ -21177,3 +21177,333 @@ WARNING: 7 repetitive deprecation warnings omitted.
 Run in verbose mode to see all warnings.
                     ...done in 0.049177 seconds.
                     
+      Regenerating: 1 file(s) changed at 2026-04-28 14:47:48
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+27 │ @import "-sections-dir";
+   │         ^^^^^^^^^^^^^^^
+   ╵
+    /Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/assets/css/main.scss 27:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+28 │ @import 'about';
+   │         ^^^^^^^
+   ╵
+    /Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/assets/css/main.scss 28:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+2 │ @import "base",
+  │         ^^^^^^
+  ╵
+    _-sections-dir.scss 2:9                                                                       @import
+    /Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/assets/css/main.scss 27:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+3 │         "code",
+  │         ^^^^^^
+  ╵
+    _-sections-dir.scss 3:9                                                                       @import
+    /Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/assets/css/main.scss 27:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+4 │         "default",
+  │         ^^^^^^^^^
+  ╵
+    _-sections-dir.scss 4:9                                                                       @import
+    /Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/assets/css/main.scss 27:9  root stylesheet
+WARNING: 7 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+                    ...done in 0.114958 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-04-28 15:05:05
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+27 │ @import "-sections-dir";
+   │         ^^^^^^^^^^^^^^^
+   ╵
+    /Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/assets/css/main.scss 27:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+28 │ @import 'about';
+   │         ^^^^^^^
+   ╵
+    /Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/assets/css/main.scss 28:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+2 │ @import "base",
+  │         ^^^^^^
+  ╵
+    _-sections-dir.scss 2:9                                                                       @import
+    /Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/assets/css/main.scss 27:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+3 │         "code",
+  │         ^^^^^^
+  ╵
+    _-sections-dir.scss 3:9                                                                       @import
+    /Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/assets/css/main.scss 27:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+4 │         "default",
+  │         ^^^^^^^^^
+  ╵
+    _-sections-dir.scss 4:9                                                                       @import
+    /Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/assets/css/main.scss 27:9  root stylesheet
+WARNING: 7 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+                    ...done in 0.074163 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-04-28 16:50:17
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+27 │ @import "-sections-dir";
+   │         ^^^^^^^^^^^^^^^
+   ╵
+    /Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/assets/css/main.scss 27:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+28 │ @import 'about';
+   │         ^^^^^^^
+   ╵
+    /Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/assets/css/main.scss 28:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+2 │ @import "base",
+  │         ^^^^^^
+  ╵
+    _-sections-dir.scss 2:9                                                                       @import
+    /Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/assets/css/main.scss 27:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+3 │         "code",
+  │         ^^^^^^
+  ╵
+    _-sections-dir.scss 3:9                                                                       @import
+    /Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/assets/css/main.scss 27:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+4 │         "default",
+  │         ^^^^^^^^^
+  ╵
+    _-sections-dir.scss 4:9                                                                       @import
+    /Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/assets/css/main.scss 27:9  root stylesheet
+WARNING: 7 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+                    ...done in 0.117178 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-04-28 19:02:39
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+27 │ @import "-sections-dir";
+   │         ^^^^^^^^^^^^^^^
+   ╵
+    /Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/assets/css/main.scss 27:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+28 │ @import 'about';
+   │         ^^^^^^^
+   ╵
+    /Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/assets/css/main.scss 28:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+2 │ @import "base",
+  │         ^^^^^^
+  ╵
+    _-sections-dir.scss 2:9                                                                       @import
+    /Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/assets/css/main.scss 27:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+3 │         "code",
+  │         ^^^^^^
+  ╵
+    _-sections-dir.scss 3:9                                                                       @import
+    /Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/assets/css/main.scss 27:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+4 │         "default",
+  │         ^^^^^^^^^
+  ╵
+    _-sections-dir.scss 4:9                                                                       @import
+    /Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/assets/css/main.scss 27:9  root stylesheet
+WARNING: 7 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+                    ...done in 0.105393 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-04-28 21:08:08
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+27 │ @import "-sections-dir";
+   │         ^^^^^^^^^^^^^^^
+   ╵
+    /Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/assets/css/main.scss 27:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+28 │ @import 'about';
+   │         ^^^^^^^
+   ╵
+    /Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/assets/css/main.scss 28:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+2 │ @import "base",
+  │         ^^^^^^
+  ╵
+    _-sections-dir.scss 2:9                                                                       @import
+    /Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/assets/css/main.scss 27:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+3 │         "code",
+  │         ^^^^^^
+  ╵
+    _-sections-dir.scss 3:9                                                                       @import
+    /Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/assets/css/main.scss 27:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+4 │         "default",
+  │         ^^^^^^^^^
+  ╵
+    _-sections-dir.scss 4:9                                                                       @import
+    /Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/assets/css/main.scss 27:9  root stylesheet
+WARNING: 7 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+                    ...done in 0.118324 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-04-28 22:59:43
+                    jekyll.log
+       Jekyll Feed: Generating feed for posts
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+27 │ @import "-sections-dir";
+   │         ^^^^^^^^^^^^^^^
+   ╵
+    /Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/assets/css/main.scss 27:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+28 │ @import 'about';
+   │         ^^^^^^^
+   ╵
+    /Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/assets/css/main.scss 28:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+2 │ @import "base",
+  │         ^^^^^^
+  ╵
+    _-sections-dir.scss 2:9                                                                       @import
+    /Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/assets/css/main.scss 27:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+3 │         "code",
+  │         ^^^^^^
+  ╵
+    _-sections-dir.scss 3:9                                                                       @import
+    /Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/assets/css/main.scss 27:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+4 │         "default",
+  │         ^^^^^^^^^
+  ╵
+    _-sections-dir.scss 4:9                                                                       @import
+    /Users/michellestar/Documents/GitHub/hello-michelle-star.github.io/assets/css/main.scss 27:9  root stylesheet
+WARNING: 7 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+                    ...done in 0.187708 seconds.
+                    
