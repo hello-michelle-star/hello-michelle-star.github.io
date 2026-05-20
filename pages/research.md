@@ -272,6 +272,13 @@ letter-spacing: .06em; }
 
   <ul class="link-cards">
     <li>
+      <a class="link-card" href="https://social-llm-workshop.github.io/index.html#accepted-papers" target="_blank" rel="noopener">
+        <span class="title">SocialLLM @ ICWSM 2026 workshop 🗣️ — Oral Paper (25% selected)</span>
+        <span class="meta">Accepted Papers</span>
+        <span class="icon" aria-hidden="true">↗</span>
+      </a>
+    </li>
+    <li>
       <a class="link-card" href="https://chi2026.acm.org/authors/student-research-competition/" target="_blank" rel="noopener">
         <span class="title">ACM CHI Student Research Competition 🌍 (Selected as 1 of 12 globally)</span>
         <span class="meta">Conference Website</span>
